@@ -1,0 +1,22 @@
+{
+  "name": "buku-kas-perusahaan",
+  "version": "1.0.0",
+  "description": "Tracking Keuangan Perusahaan - Sistem Pencatatan Kas Korporasi",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "keywords": [
+    "finance",
+    "buku-kas",
+    "accounting",
+    "ledger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
